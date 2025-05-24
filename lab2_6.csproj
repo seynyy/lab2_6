@@ -52,8 +52,8 @@
         <Compile Include="Form1.Designer.cs">
             <DependentUpon>Form1.cs</DependentUpon>
         </Compile>
-        <Compile Include="Model\Pyramid.cs" />
         <Compile Include="Model\ISolid.cs" />
+        <Compile Include="Model\Pyramid.cs" />
         <Compile Include="Model\Sphere.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
