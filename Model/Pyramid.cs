@@ -2,7 +2,7 @@
 
 namespace lab2_61.Model
 {
-    public class Pyramid : Solid
+    public class Pyramid : ISolid
     {
         private double a;
         private double h;
@@ -13,7 +13,7 @@ namespace lab2_61.Model
             this.h = h;
         }
 
-        protected internal override double GetVolume()
+        public double GetVolume()
         {
             return 1.0 / 3.0 * Math.Pow(a, 2) * h;
         }

@@ -2,7 +2,7 @@
 
 namespace lab2_61.Model
 {
-    public class Sphere : Solid
+    public class Sphere : ISolid
     {
         private double r;
 
@@ -11,7 +11,7 @@ namespace lab2_61.Model
             this.r = r;
         }
 
-        protected internal override double GetVolume()
+        public double GetVolume()
         {
             return (4.0 / 3.0) * Math.PI * Math.Pow(r, 3);
         }
